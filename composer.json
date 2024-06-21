@@ -16,7 +16,7 @@
   ],
   "minimum-stability": "stable",
   "scripts": {
-    "fix": "php-cs-fixer fix",
+    "fix": "export PHP_CS_FIXER_IGNORE_ENV=1; php-cs-fixer fix src/",
     "test": "vendor/bin/phpunit",
     "doc": "tools/phpdocumentor -d src -t doc --template='vendor/saggre/phpdocumentor-markdown/themes/markdown'"
   },
