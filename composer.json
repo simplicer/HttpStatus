@@ -2,6 +2,7 @@
   "name": "simplicer/http",
   "description": "Library to manage HTTP status codes and their descriptions.",
   "type": "library",
+  "version": "1.0.0",
   "license": "GPLv3",
   "autoload": {
     "psr-4": {
